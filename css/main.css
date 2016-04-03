@@ -21,3 +21,108 @@ html {
 body {
   margin: 0;
 }
+
+section {
+  background-color: #e5c30a;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 45em;
+  overflow: hidden;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.section-icon {
+  width: 40%;
+  float: left;
+  margin: 1rem;
+}
+
+.section-letter {
+  width: 40%;
+  float: left;
+  margin: 1rem;
+}
+
+.section-body {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-letter {
+    width: 35%;
+  }
+
+  .section-icon {
+    width: 35%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-letter {
+    width: 13%;
+    margin: 1rem;
+  }
+
+  .section-icon {
+    float: right;
+    width: 13%;
+    margin: 1rem;
+  }
+
+  section h2 {
+    margin-top: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .section-letter {
+    width: 15%;
+    margin: 1rem 2rem 1rem 1rem;
+  }
+
+  .section-icon {
+    float: right;
+    width: 15%;
+    margin: 1rem 2rem 1rem 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
+
+}
